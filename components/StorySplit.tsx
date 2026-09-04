@@ -7,7 +7,7 @@ export default function StorySplit() {
     <section className="grid grid-cols-1 md:grid-cols-2">
       <Reveal className="relative aspect-[4/5] md:aspect-auto">
         <Image
-          src="/photos/banana-cream-latte.jpg"
+          src="/photos/pumpkin-dose.jpg"
           alt="A Dose of V Cafe latte, poured to order"
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
