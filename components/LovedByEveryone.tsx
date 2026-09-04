@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 export default function LovedByEveryone() {
   return (
     <section id="loved" className="bg-espresso py-24 text-white">
-      <Reveal className="text-center">
+      <Reveal className="px-6 text-center">
         <p className="eyebrow text-gold-soft">From Our Instagram</p>
         <h2 className="mt-4 font-display text-4xl leading-tight sm:text-5xl">
           Loved by <span className="italic">everyone.</span>
@@ -27,14 +27,17 @@ export default function LovedByEveryone() {
         </div>
       </Reveal>
 
-      <Reveal delay={300} className="mt-14 text-center">
+      <Reveal delay={300} className="mt-14 px-6 text-center">
         <a
           href={business.instagram.url}
           target="_blank"
           rel="noopener noreferrer"
           className="btn border-white/70 text-white hover:bg-white hover:text-ink"
         >
-          Follow {business.instagram.handle} on Instagram
+          <span className="sm:hidden">Follow on Instagram</span>
+          <span className="hidden sm:inline">
+            Follow {business.instagram.handle} on Instagram
+          </span>
         </a>
       </Reveal>
     </section>
