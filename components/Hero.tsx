@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-black/50" />
 
       <div className="relative flex flex-col items-center px-6 text-center text-white">
-        <span className="eyebrow mb-6 text-white/80">Glendale, California</span>
+        <span className="eyebrow mb-6 !text-white">Glendale, California</span>
         <h1 className="font-display text-[15vw] uppercase leading-[0.95] tracking-tight sm:text-7xl md:text-8xl">
           Dose of V
           <br />
