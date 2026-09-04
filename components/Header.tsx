@@ -41,9 +41,14 @@ export default function Header() {
           >
             Instagram
           </a>
-          <Link href="/#order" className="btn text-ink hover:bg-ink hover:text-background">
+          <a
+            href={business.instagram.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn text-ink hover:bg-ink hover:text-background"
+          >
             DM to Order
-          </Link>
+          </a>
         </div>
       </div>
     </header>
