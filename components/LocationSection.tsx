@@ -14,7 +14,9 @@ export default function LocationSection() {
           confirmed by DM. {business.order.fulfillment} — no delivery.
         </p>
         <a
-          href="#order"
+          href={business.instagram.url}
+          target="_blank"
+          rel="noopener noreferrer"
           className="btn mt-8 border-ink text-ink hover:bg-ink hover:text-background"
         >
           DM to Place an Order
