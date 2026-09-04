@@ -4,9 +4,18 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-espresso">
       <video
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 hidden h-full w-full object-cover sm:block"
         src="/video/hero.mp4"
         poster="/video/hero-poster.jpg"
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
+      <video
+        className="absolute inset-0 block h-full w-full object-cover sm:hidden"
+        src="/video/hero-mobile.mp4"
+        poster="/video/hero-mobile-poster.jpg"
         autoPlay
         muted
         loop

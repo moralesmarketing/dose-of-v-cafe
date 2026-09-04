@@ -27,7 +27,7 @@ export default function Header() {
             className="h-10 w-10"
             priority
           />
-          <span className="font-display text-xl tracking-wide text-ink">
+          <span className="hidden font-display text-xl tracking-wide text-ink sm:inline">
             Dose of V <span className="italic text-gold">Café</span>
           </span>
         </Link>
